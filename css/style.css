@@ -130,3 +130,40 @@ span{
 	line-height: 28px;
 	margin-bottom: 20px;
 }
+.social a{
+	width: 35px;
+	height: 35px;
+	border-radius: 50%;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	background: rgba(128,103,240,1);
+	font-size: 17px;
+	color: var(--bg-color);
+	margin-right: 22px;
+	margin-bottom: 30px;
+}
+.social a:hover{
+	transform: scale(1.1);
+	background: var(--main-color);
+	transition: .5s;
+}
+.btn{
+	display: inline-block;
+	color: var(--bg-color);
+	background: var(--main-color);
+	font-size: var(--p-font);
+	padding: 10px 40px;
+	font-weight: 500;
+	line-height: 24px;
+	border-radius: 30px;
+	transition: ease .40s;
+}
+.btn:hover{
+	transform: scale(1.1);
+}
+.home-img img{
+	max-width: 100%;
+	width: 540px;
+	height: auto;
+}
