@@ -216,7 +216,15 @@ span{
 	color: var(--secound-color);
 	line-height: 28px;
 }
-
+.portfolio-content{
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(350px, auto));
+	grid-gap: 2rem;
+	align-items: center;
+	margin-top: 5rem;
+	text-align: center;
+	cursor: pointer;
+}
 
 
 .ends{
