@@ -126,7 +126,7 @@ span{
 }
 .home-text p{
 	font-size: var(--p-font);
-	color: var(--secound-color);
+	color: var(--second-color);
 	line-height: 28px;
 	margin-bottom: 20px;
 }
@@ -193,7 +193,7 @@ span{
 .about-text p{
 	max-width: 550px;
 	font-size: var(--p-font);
-	color: var(--secound-color);
+	color: var(--second-color);
 	line-height: 28px;
 	margin-bottom: 45px;
 }
@@ -213,7 +213,7 @@ span{
 }
 .heading p{
 	font-size: var(--p-font);
-	color: var(--secound-color);
+	color: var(--second-color);
 	line-height: 28px;
 }
 .portfolio-content{
@@ -224,6 +224,18 @@ span{
 	margin-top: 5rem;
 	text-align: center;
 	cursor: pointer;
+}
+.timeline .item::before{
+    content: "";
+    position: absolute;
+    left: -43px;
+    top: 0;
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background: var(--bg-color);
+    border: 3px solid var(--main-color);
 }
 
 
