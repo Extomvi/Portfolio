@@ -225,6 +225,19 @@ span{
 	text-align: center;
 	cursor: pointer;
 }
+
+.timeline {
+    border-left: 3px solid var(--main-color);
+    border-bottom-right-radius: 2px;
+    border-top-right-radius: 2px;
+    position: relative;
+    padding: 0 30px;
+    margin-left: 280px;
+}
+.timeline .item {
+    position: relative;
+    margin-bottom: 45px;
+}
 .timeline .item::before{
     content: "";
     position: absolute;
@@ -236,6 +249,92 @@ span{
     border-radius: 50%;
     background: var(--bg-color);
     border: 3px solid var(--main-color);
+}
+.timeline .work-place {
+    position: relative;
+}
+.timeline .place {
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-weight: 300;
+}
+.bx {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+a {
+    color: var(--main-color);
+    /* -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out; */
+}
+.timeline .location {
+    position: absolute;
+    right: 0;
+    top: 2px;
+    color: var(--second-color);
+}
+.timeline .location .bx {
+    margin-right: 5px;
+}
+.bx {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.timeline .job-meta{
+    position: absolute;
+    left: -280px;
+    top: 0;
+}
+.timeline .job-meta .title {
+    font-size: 18px;
+    color: var(--main-color);
+}
+.timeline .job-meta .time {
+    color: var(--second-color);
+}
+
+.timeline .job-desc {
+    color: var(--text-color);
+}
+
+dl, ol, ul {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+p {
+    line-height: 1.5;
+}
+b, strong {
+    font-weight: bolder;
+}
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
 }
 
 
