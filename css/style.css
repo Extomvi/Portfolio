@@ -48,7 +48,7 @@ header{
     font-size: var(--p-font);
     color: var(--text-color);
     font-weight: 500;
-    padding: 10px 27px;
+    padding: 8px 18px;
 }
 .navlist a::after{
     content: '';
