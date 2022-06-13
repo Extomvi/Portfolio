@@ -264,6 +264,25 @@ a {
     background: var(--bg-color);
     border: 3px solid var(--main-color);
 }
+.timeline .item::after {
+    content: "";
+    position: absolute;
+    left: -37px;
+    top: 6px;
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    background: var(--main-color);
+    z-index: 10;
+}
 .timeline .work-place {
     position: relative;
 }
