@@ -255,11 +255,11 @@ a {
 .timeline .item::before{
     content: "";
     position: absolute;
-    left: -43px;
+    left: -44px;
     top: 0;
     display: inline-block;
-    width: 22px;
-    height: 22px;
+    width: 18px;
+    height: 18px;
     border-radius: 50%;
     background: var(--bg-color);
     border: 3px solid var(--main-color);
