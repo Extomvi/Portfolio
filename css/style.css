@@ -441,9 +441,15 @@ h1, h2, h3, h4, h5, h6 {
     flex: 0 0 100%;
     max-width: 100%;
 }
+
 .chart-easy-pie {
-    positon: relative;
-}
+    margin: 30px auto;
+    width: 110px;
+    height: 110px;
+    background: var(--bg-color);
+    border-radius: 50%;
+    border: 1px solid var(--main-color);
+  }
 .text-center {
     text-align: center!important;
 }
@@ -465,6 +471,9 @@ h1, h2, h3, h4, h5, h6 {
     position: absolute;
     left: 0;
     top: 0;
+}
+canvas[Attributes] {
+    aspect-ratio: auto 110 / 110;
 }
 h1, h2, h3, h4, h5, h6 {
     font-weight: 500;
