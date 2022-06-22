@@ -483,9 +483,28 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 15px;
 }
 .skills-section .desc {
-    color: #24292e;
+    color: var(--text-color);
 }
 
+.skills-section .subtitle {
+    font-size: 18px;
+    color: var(--text-color);
+    margin-top: 0;
+    margin-bottom: 45px;
+    font-weight: 300;
+}
+.skills-section .skill-tag {
+    -webkit-box-shadow: 0 1px 4px 0 rgb(0 0 0 / 14%);
+    -moz-box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
+    box-shadow: 0 1px 4px 0 rgb(0 0 0 / 14%);
+    padding: 6px 30px;
+    display: inline-block;
+    margin-right: 10px;
+    border: 1px solid var(--main-color);
+    font-weight: 500;
+    margin-bottom: 15px;
+    font-size: 14px;
+}
 
 .ends{
 	text-align: center;
