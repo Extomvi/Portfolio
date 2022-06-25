@@ -537,6 +537,16 @@ h1, h2, h3, h4, h5, h6 {
     margin-right: -15px;
     margin-left: -15px;
 }
+.education-section .item {
+    margin-bottom: 45px;
+}
+.col-12 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
 .ends{
 	text-align: center;
 	padding: 40px;
