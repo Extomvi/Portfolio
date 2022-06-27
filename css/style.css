@@ -570,6 +570,13 @@ h1, h2, h3, h4, h5, h6 {
     color: var(--text-color);
 }
 
+b, strong {
+    font-weight: bolder;
+}
+a {
+    color: var(--main-color);
+    
+}
 .ends{
 	text-align: center;
 	padding: 40px;
