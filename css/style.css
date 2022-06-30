@@ -537,7 +537,7 @@ h1, h2, h3, h4, h5, h6 {
     margin-right: -15px;
     margin-left: -15px;
 }
-.education-section .item {
+.education .item {
     margin-bottom: 45px;
 }
 .col-12 {
@@ -546,10 +546,10 @@ h1, h2, h3, h4, h5, h6 {
     flex: 0 0 100%;
     max-width: 100%;
 }
-.education-section .item-inner {
+.education .item-inner {
     padding: 0 30px;
 }
-.education-section .title {
+.education .title {
     font-size: 18px;
     color: var(--main-color);
     margin-top: 0;
@@ -557,16 +557,16 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 500;
     line-height: 1.2;
 }
-.education-section .sub-title {
+.education .sub-title {
     margin-bottom: 0;
     font-size: 16px;
     font-weight: 300;
 }
-.education-section .time {
+.education .time {
     color: var(--second-color);
     margin-bottom: 15px;
 }
-.education-section .desc {
+.education .desc {
     color: var(--text-color);
 }
 
