@@ -1,3 +1,6 @@
-# Portfolio
-Portfolio site
-Setting things up-to-date
+# Portfolio Website
+Software Engineer | DevOps Engineer | Cloud Engineer
+
+Author - Tomiwa Adedokun
+
+Email: exceltadedokun@gmail.com
