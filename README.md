@@ -1,7 +1,7 @@
 # Portfolio Website
-Software Engineer | DevOps Engineer | Cloud Engineer
+Software Engineer | Site Reliability Engineer | Cloud Engineer
 
-Currently role: Cloud Support Engineer.
+Currently role: Site Reliability Engineer.
 
 Author - Tomiwa Adedokun
 
