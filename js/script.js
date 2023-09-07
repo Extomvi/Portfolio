@@ -40,26 +40,3 @@ button.addEventListener('click', function(){
 	downloadLink.click();
 });
 
-contact.addEventListener('submit', function(event){
-	event.preventDefault();
-	
-	const formData = new FormData(contact);
-
-	fetch('send_email.php', {
-		method: 'POST',
-		body: formData
-	})
-	.then(response => {
-		if (response.ok) {
-			alert('Email sent successfully!');
-			contact.reset();
-		} else {
-			alert('Error sending email. Please try again later.');
-		}
-	})
-	.catch(error => {
-		console.error('Error:', error);
-		alert('An error occurred while sending the email. Please try again later.');
-	});
-});
-
