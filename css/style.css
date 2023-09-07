@@ -65,7 +65,7 @@ header{
 }
 #menu-icon{
     font-size: 35px;
-    color: var(--text-color);
+    color: var(--main-color);
     z-index: 10001;
     cursor: pointer;
     display: none;
