@@ -8,6 +8,7 @@ window.addEventListener ("scroll", function() {
 
 let menu = document.querySelector('#menu-icon');
 let navlist = document.querySelector('.navlist');
+let button = document.querySelector('#top-btn')
 
 menu.onclick = () => {
 	menu.classList.toggle('bx-x');
@@ -29,4 +30,13 @@ sr.reveal('.home-text',{delay:350, origin:'left'})
 sr.reveal('.home-img',{delay:350, origin:'right'})
 
 sr.reveal('.about,.portfolio,.skills,.education,.contact',{delay:200, origin:'bottom'})
+
+button.addEventListener('click', function(){
+	const downloadLink = document.createElement('a');
+	downloadLink.href = `https://docs.google.com/document/d/1DVnmw0NpZLQSpLbkDlZPkigg5ZpNH3ZLgBdIMWcKRrk/export?format=pdf`;
+	downloadLink.target = '_blank';
+	downloadLink.download = 'Tomiwa-Adedokun-RESUME.pdf';
+	downloadLink.click();
+});
+
 
