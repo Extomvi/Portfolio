@@ -1,7 +1,7 @@
 # Portfolio Website
 Software Engineer | Site Reliability Engineer | Cloud Engineer
 
-Currently role: Site Reliability Engineer.
+Currently role: Systems Development Engineer.
 
 Author - Tomiwa Adedokun
 
